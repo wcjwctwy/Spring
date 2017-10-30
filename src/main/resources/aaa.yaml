@@ -1,0 +1,9 @@
+server:
+  my:
+    name: susan
+    age: 18
+spring:
+  profiles:
+    active: dev
+myprop:
+  name: lilei

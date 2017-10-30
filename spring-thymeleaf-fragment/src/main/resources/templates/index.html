@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>index</title>
+    <script type='text/javascript' src='http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js'></script>
+</head>
+<body>
+<h1>Fragment Test</h1>
+<!--<div th:replace="${template} :: ${content}"></div>-->
+<button>点击</button>
+</body>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $.get("http://www.baidu.com",
+                function(data,status){
+                    alert("数据：" + data + "\n状态：" + status);
+                });
+        });
+    });
+</script>
+</html>

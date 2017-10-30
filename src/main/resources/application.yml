@@ -1,0 +1,7 @@
+server:
+  name: susan
+  address: 127.0.0.1
+  port: 80
+  my:
+    name: susanq
+    age: 18
